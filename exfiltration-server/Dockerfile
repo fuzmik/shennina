@@ -2,7 +2,7 @@ FROM alpine
 
 RUN apk update
 RUN apk add python3
-RUN apk add py-pip
+RUN apk add py3-pip
 
 RUN pip install flask
 
